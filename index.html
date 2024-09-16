@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origenews</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+       
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        
+        nav {
+            background-color: #444;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .main-content {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .news-item {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-item h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        .news-item p {
+            font-size: 1.1em;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        
+        
+
+        .news-item a:hover {
+            text-decoration: underline;
+        }
+
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        
+        @media screen and (max-width: 768px) {
+            .main-content {
+                width: 90%;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            .news-item h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+   
+    <header>
+        <h1>Portal de Notícias - Origenews</h1>
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="">Início</a></li>
+            <li><a href="">ClimaTempo</a></li>
+            <li><a href=" ">Entretenimento</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="main-content">
+        <section class="news-item">
+            <h2>São Paulo: Cidade amanhece com o ar mais poluído do mundo</h2>
+            <p>A cidade de São Paulo iniciou esta quarta-feira (11) registrando a pior qualidade do ar da semana, segundo as medições da Companhia Ambiental do Estado (Cetesb).
+
+                Às 9h, o monitoramento apontava que o ar estavam com qualidade "muito ruim" em 10 estações espalhadas pela capital, enquanto que nas outras quatro, a classificação era "ruim". No mesmo horário, na segunda-feira (9), eram seis estações com índice "muito ruim", seis com "ruim" e uma com "moderado" — a do Capão Redondo não fez medição às 9h daquele dia.</p>
+            <img src="576d2425-b64c-4d81-9eb2-e1a8085c03a5.jpg"  width="500" height="300" style="display: block; margin: 0 auto;">
+            <p>Fonte:G1</p>
+        </section>
+
+        <section class="news-item">
+            <h2>Noticia 2</h2>
+            <p>noticia</p>
+        </section>
+
+       
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2024 Origenews. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
